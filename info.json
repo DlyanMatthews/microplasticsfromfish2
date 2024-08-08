@@ -1,0 +1,9 @@
+{
+    "name": "microplasticsfromfish",
+    "version": "0.0.1",
+    "title": "Extract Microplastics from Fish",
+    "author": "Serotonintheft",
+    "description": "Filter floating plastic straight from the ocean, and extract microplastic from fish!",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"]
+}
