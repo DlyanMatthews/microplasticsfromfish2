@@ -1,0 +1,9 @@
+{
+    "name": "microplasticsfromfish",
+    "version": "0.1.0",
+    "factorio_version": "1.1",
+    "title": "Microplastics from Fish",
+    "author": "Serotonintheft",
+    "description": "A mod that adds a recipe to extract microplastics from fish.",
+    "dependencies": ["base >= 1.1"]
+}
