@@ -14,7 +14,7 @@ data:extend({
             {type = "item", name = "sulfur", amount = 0}
         },
         main_product = "plastic-bar",
-        icon = "__microplasticsfromfish__/graphics/icons/extract-microplastics-from-fish.png",
+        icon = "__microplasticsfromfish2__/graphics/icons/extract-microplastics-from-fish.png",
         icon_size = 64
     }
 })
@@ -37,7 +37,7 @@ for p = 0,20 do
             {type = "item", name = "sulfur", amount = math.floor(p/4)}
         },
         main_product = "plastic-bar",
-        icon = "__microplasticsfromfish__/graphics/icons/extract-microplastics-from-fish.png",
+        icon = "__microplasticsfromfish2__/graphics/icons/extract-microplastics-from-fish.png",
         icon_size = 64
     }}) 
     table.insert(data.raw["technology"]["plastics"].effects, {type = "unlock-recipe", recipe = string.format("fish-plastic-%d",p) })
