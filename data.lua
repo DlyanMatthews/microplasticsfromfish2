@@ -13,7 +13,9 @@ data:extend({
             {type = "fluid", name = "light-oil", amount = 100},
             {type = "item", name = "sulfur", amount = 0}
         },
-        main_product = "plastic-bar"
+        main_product = "plastic-bar",
+        icon = "__microplasticsfromfish__/graphics/icons/extract-microplastics-from-fish.png",
+        icon_size = 64
     }
 })
 
@@ -33,6 +35,8 @@ for p = 0,20 do
             {type = "fluid", name = "light-oil", amount = 100 - 5*p},
             {type = "item", name = "sulfur", amount = math.floor(p/4)}
         },
-        main_product = "plastic-bar"
+        main_product = "plastic-bar",
+        icon = "__microplasticsfromfish__/graphics/icons/extract-microplastics-from-fish.png",
+        icon_size = 64
     }}) 
 end
