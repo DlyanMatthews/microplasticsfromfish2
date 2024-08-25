@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "fish-plastic-show",
         category = "crafting-with-fluid",
-        enabled = true,
+        enabled = false,
         energy_required = 6,
         ingredients = {
             {type = "item", name = "raw-fish", amount = 10},
@@ -18,13 +18,14 @@ data:extend({
         icon_size = 64
     }
 })
+table.insert(data.raw["technology"]["plastics"].effects, {type = "unlock-recipe", recipe = "fish-plastic-show"})
 
 for p = 0,20 do
     data:extend({{
         type = "recipe",
         name = string.format("fish-plastic-%d",p),
         category = "crafting-with-fluid",
-        enabled = true,
+        enabled = false,
         hidden = true,
         energy_required = 6,
         ingredients = {
@@ -39,4 +40,5 @@ for p = 0,20 do
         icon = "__microplasticsfromfish__/graphics/icons/extract-microplastics-from-fish.png",
         icon_size = 64
     }}) 
+    table.insert(data.raw["technology"]["plastics"].effects, {type = "unlock-recipe", recipe = string.format("fish-plastic-%d",p) })
 end
