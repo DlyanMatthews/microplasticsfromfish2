@@ -3,6 +3,7 @@ data:extend({
         type = "recipe",
         name = "fish-plastic-show",
         category = "crafting-with-fluid",
+        localised_name = {"recipe-name.extract-microplastics-from-fish"},
         enabled = false,
         energy_required = 6,
         ingredients = {
@@ -24,6 +25,7 @@ for p = 0,20 do
     data:extend({{
         type = "recipe",
         name = string.format("fish-plastic-%d",p),
+        localised_name = {"recipe-name.extract-microplastics-from-fish"},
         category = "crafting-with-fluid",
         enabled = false,
         hidden = true,
