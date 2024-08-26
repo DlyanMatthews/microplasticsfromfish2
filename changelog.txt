@@ -3,3 +3,15 @@ Version: 0.1.0
 Date: 08. 14. 2024
   Major Features:
     - Initial release
+Version: 0.2.0
+Date: 08. 23. 2024
+  Major Features:
+    - Forked
+    - Recipe gives light oil and sulfur instead of water
+    - Recipe scales off of current pollution
+Version: 0.2.2
+Date: 08. 25. 2024
+  Major Features:
+    - Fixed name
+    - Fixed icon
+    - Now works on all surfaces, not just Nauvis
